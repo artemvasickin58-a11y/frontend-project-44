@@ -7,6 +7,7 @@ const startGame = (getQuestionAndAnswer, description) => {
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!`);
   console.log(description);
+
   for (let i = 0; i < numOfRounds; i += 1) {
     const [question, answer] = getQuestionAndAnswer();
     console.log(`Question: ${question}`);
@@ -19,7 +20,7 @@ const startGame = (getQuestionAndAnswer, description) => {
       return;
     }
   }
-  console.log(`Congratualtions ${userName}!`);
+  console.log(`Congratulations, ${userName}!`);
 };
 
 export default startGame;

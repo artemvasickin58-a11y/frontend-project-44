@@ -1,32 +1,41 @@
 {
-  "name": "brain-games-lvl1",
+  "name": "frontend-project-44",
   "version": "0.0.2",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "type": "module",
+
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/d-mitrofanov/frontend-project-lvl1.git"
+    "url": "git+https://github.com/artemvasickin58-a11y/frontend-project-44.git"
   },
-  "author": "Dmitriy Mitrofanov",
+
+  "author": "Artem Vasickin",
   "license": "ISC",
+
   "bugs": {
-    "url": "https://github.com/d-mitrofanov/frontend-project-lvl1/issues"
+    "url": "https://github.com/artemvasickin58-a11y/frontend-project-44/issues"
   },
-  "homepage": "https://github.com/d-mitrofanov/frontend-project-lvl1#readme",
-  "type": "module",
+
+  "homepage": "https://github.com/artemvasickin58-a11y/frontend-project-44#readme",
+
   "bin": {
+    "brain-games": "bin/brain-games.js",
     "brain-even": "bin/brain-even.js",
     "brain-calc": "bin/brain-calc.js",
-    "brain-gdc": "bin/brain-gdc.js",
+    "brain-gcd": "bin/brain-gcd.js",
     "brain-progression": "bin/brain-progression.js",
     "brain-prime": "bin/brain-prime.js"
   },
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
   "dependencies": {
     "readline-sync": "^1.4.10"
   },
+
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",

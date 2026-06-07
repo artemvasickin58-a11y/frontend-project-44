@@ -1,23 +1,9 @@
 {
-  "name": "frontend-project-44",
+  "name": "@hexlet/code",
   "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "type": "module",
-
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/artemvasickin58-a11y/frontend-project-44.git"
-  },
-
-  "author": "Artem Vasickin",
-  "license": "ISC",
-
-  "bugs": {
-    "url": "https://github.com/artemvasickin58-a11y/frontend-project-44/issues"
-  },
-
-  "homepage": "https://github.com/artemvasickin58-a11y/frontend-project-44#readme",
 
   "bin": {
     "brain-games": "bin/brain-games.js",
@@ -29,7 +15,8 @@
   },
 
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npx eslint ."
   },
 
   "dependencies": {
